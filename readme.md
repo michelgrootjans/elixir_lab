@@ -13,3 +13,8 @@ def deps do
     ...
   ]  
 end
+
+# helpers:
+Stream.cycle(enumerable): Creates a stream that cycles through the given enumerable, infinitely
+
+Enum.take(enumerable, amount): Takes the first amount items from the enumerable
